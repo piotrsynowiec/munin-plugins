@@ -32,7 +32,7 @@ Unknown license
 
 =cut
 
-. $MUNIN_LIBDIR/plugins/plugin.sh
+. /etc/munin/plugins-available/plugin.sh
 
 guest_names=`lxc-ls | sort -u`
 for guest in $guest_names; do
