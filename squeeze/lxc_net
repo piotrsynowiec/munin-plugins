@@ -43,7 +43,7 @@ mitty   mitty@mitty.jp
 
 =cut
 
-. $MUNIN_LIBDIR/plugins/plugin.sh
+. /etc/munin/plugins-available/plugin.sh
 
 lxcpath=${lxcpath:-/var/lib/lxc}
 
