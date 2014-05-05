@@ -34,7 +34,7 @@ Unknown license
 
 =cut
 
-. $MUNIN_LIBDIR/plugins/plugin.sh
+. /etc/munin/plugins-available/plugin.sh
 
 ## find proper sysfs and count it
 # Debian 6.0: /sys/fs/cgroup/<container>/tasks
